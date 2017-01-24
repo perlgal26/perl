@@ -1,0 +1,340 @@
+<!ENTITY % inline "a | blockquote | br | center | div |em | i | input | font | h1 | h2 | h3 | h4 | h5 | h6 | hr | img | li | nutri |nopeople| ol |option| ul | p | span | strong | b | sub | sup | select |table| tbody |thead |tfoot| tr | th | td | tt | tfoot | u | enc | invar |step | problet | transform | pre | ocr ">
+
+<!ELEMENT a ( #PCDATA | %inline;)* > 
+<!ATTLIST a href CDATA #REQUIRED >
+<!ATTLIST a hreflang CDATA #IMPLIED >
+<!ATTLIST a target CDATA #IMPLIED >
+<!ATTLIST a type CDATA #IMPLIED >
+ 
+<!ELEMENT blockquote ( #PCDATA | %inline;)* > 
+<!ATTLIST blockquote title CDATA #IMPLIED >
+<!ELEMENT br EMPTY > 
+<!ATTLIST br title CDATA #IMPLIED >
+  
+<!ELEMENT center ( #PCDATA | %inline;)* > 
+<!ATTLIST center title CDATA #IMPLIED >  
+
+<!ELEMENT div ( #PCDATA | %inline; )* >
+<!ATTLIST div align (center|justify|left|right) #IMPLIED >
+<!ATTLIST div style CDATA #IMPLIED >
+<!ATTLIST div class CDATA #IMPLIED >
+<!ATTLIST div id CDATA #IMPLIED >
+<!ATTLIST div title CDATA #IMPLIED >
+
+<!ELEMENT em ( #PCDATA | %inline;)* >
+<!ATTLIST em title CDATA #IMPLIED >
+<!ELEMENT i ( #PCDATA | %inline;)* >
+<!ATTLIST i title CDATA #IMPLIED >
+
+<!ELEMENT input ( #PCDATA | %inline;)* >
+<!ATTLIST input type CDATA #IMPLIED >
+<!ATTLIST input value CDATA #IMPLIED >
+<!ATTLIST input name CDATA #IMPLIED >
+<!ATTLIST input edit CDATA #IMPLIED >
+<!ATTLIST input size CDATA #IMPLIED >
+
+<!ELEMENT h1 ( #PCDATA | %inline;)* >
+<!ATTLIST h1 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h1 title CDATA #IMPLIED >
+
+<!ELEMENT h2 ( #PCDATA | %inline;)* >
+<!ATTLIST h2 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h2 title CDATA #IMPLIED >
+
+<!ELEMENT h3 ( #PCDATA | %inline;)* >
+<!ATTLIST h3 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h3 title CDATA #IMPLIED >
+
+<!ELEMENT h4 ( #PCDATA ) >
+<!ATTLIST h4 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h4 title CDATA #IMPLIED >
+
+<!ELEMENT h5 ( #PCDATA | %inline; )* >
+<!ATTLIST h5 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h5 title CDATA #IMPLIED >
+
+<!ELEMENT h6 ( #PCDATA | %inline;)* >
+<!ATTLIST h6 align (center|justify|left|right) #IMPLIED >
+<!ATTLIST h6 title CDATA #IMPLIED >
+
+<!ELEMENT hr EMPTY >
+<!ATTLIST hr align (center|justify|left|right) #IMPLIED >
+<!ATTLIST hr noshade CDATA #FIXED "noshade" >
+<!ATTLIST hr size CDATA #IMPLIED >
+<!ATTLIST hr title CDATA #IMPLIED >
+<!ATTLIST hr width CDATA #IMPLIED >
+<!ATTLIST hr height CDATA #IMPLIED >
+<!ATTLIST hr color CDATA #IMPLIED >
+
+<!ELEMENT img EMPTY >
+<!ATTLIST img alt CDATA #IMPLIED >
+<!ATTLIST img height NMTOKEN #IMPLIED>
+<!ATTLIST img src CDATA #IMPLIED >
+<!ATTLIST img syvum CDATA #IMPLIED >
+<!ATTLIST img width NMTOKEN #IMPLIED >
+<!ATTLIST img align (bottom|middle|left|right|top) #IMPLIED >
+<!ATTLIST img border NMTOKEN #IMPLIED  >
+<!ATTLIST img class NMTOKEN #IMPLIED  >
+<!ATTLIST img title CDATA #IMPLIED >
+ 
+<!ELEMENT p ( #PCDATA | %inline;)* >
+<!ATTLIST p align (center|justify|left|right) #IMPLIED >
+<!ATTLIST p style CDATA #IMPLIED >
+<!ATTLIST img style CDATA #IMPLIED >
+<!ATTLIST img title CDATA #IMPLIED >
+ 
+<!ELEMENT span ( #PCDATA | %inline;)* >
+<!ATTLIST span style CDATA #IMPLIED >
+ 
+<!ELEMENT sup ( #PCDATA | %inline;)* > 
+<!ATTLIST sub style CDATA #IMPLIED >
+<!ATTLIST sub title CDATA #IMPLIED >
+  
+<!ELEMENT sub ( #PCDATA | %inline; )* > 
+<!ATTLIST sub style CDATA #IMPLIED >
+<!ATTLIST sub title CDATA #IMPLIED >
+ 
+<!ELEMENT ol ( #PCDATA | %inline;)* >  
+<!ATTLIST ol class CDATA #IMPLIED >
+<!ATTLIST ol title CDATA #IMPLIED >
+<!ATTLIST ol type CDATA #IMPLIED >
+
+
+<!ELEMENT option ( #PCDATA | %inline;)* >  
+<!ATTLIST option value CDATA #IMPLIED >
+   
+<!ELEMENT ul ( #PCDATA | %inline;)* >  
+<!ATTLIST ul style CDATA #IMPLIED >
+<!ATTLIST ul title CDATA #IMPLIED >
+<!ATTLIST ul type CDATA #IMPLIED >
+
+<!ELEMENT li ( #PCDATA | %inline;)* >  
+<!ATTLIST li style CDATA #IMPLIED >
+<!ATTLIST li title CDATA #IMPLIED >
+<!ATTLIST li type CDATA #IMPLIED >
+ 
+<!ELEMENT strong ( #PCDATA | %inline; )* >
+<!ATTLIST strong style CDATA #IMPLIED >
+<!ATTLIST strong type CDATA #IMPLIED >
+
+ 
+<!ELEMENT select ( #PCDATA | %inline; )* >
+<!ATTLIST select onChange CDATA #IMPLIED >
+<!ATTLIST select name CDATA #IMPLIED >
+
+
+  
+<!ELEMENT b ( #PCDATA | %inline;)* >
+<!ATTLIST b style CDATA #IMPLIED >
+<!ATTLIST b type CDATA #IMPLIED >
+   
+<!ELEMENT table ( tbody* ) >
+<!ATTLIST table align ( center | left | right ) #IMPLIED >
+<!ATTLIST table border ( 0 | 1 ) #IMPLIED >
+<!ATTLIST table id CDATA #IMPLIED>
+<!ATTLIST table cellpadding NMTOKEN #IMPLIED >
+<!ATTLIST table cellspacing NMTOKEN #IMPLIED >
+<!ATTLIST table height NMTOKEN #IMPLIED >
+<!ATTLIST table style CDATA #IMPLIED >
+<!ATTLIST table width CDATA #IMPLIED >
+<!ATTLIST table title CDATA #IMPLIED >
+<!ATTLIST table class CDATA #IMPLIED >
+<!ATTLIST table bgcolor NMTOKEN #IMPLIED >
+<!ATTLIST table rules NMTOKEN #IMPLIED>
+<!ATTLIST table frame NMTOKEN #IMPLIED>
+
+<!ELEMENT tbody ( tr+, img*) >
+<!ELEMENT tr ( th*,td* ) >
+<!ATTLIST tr valign (baseline | bottom | middle | top) #IMPLIED >
+<!ATTLIST tr align (center | char | justify | left | right) #IMPLIED >
+<!ATTLIST tr d CDATA #IMPLIED >
+<!ATTLIST tr bgcolor CDATA #IMPLIED >
+<!ATTLIST tr rowspan NMTOKEN #IMPLIED >
+<!ATTLIST tr style CDATA #IMPLIED >
+
+<!ELEMENT td ( #PCDATA | %inline; )* >
+<!ATTLIST td align ( center |char |justify | left | right) #IMPLIED >
+<!ATTLIST td colspan NMTOKEN #IMPLIED >
+<!ATTLIST td rowspan NMTOKEN #IMPLIED >
+<!ATTLIST td bgcolor CDATA #IMPLIED >
+<!ATTLIST td headers NMTOKEN #IMPLIED >
+<!ATTLIST td style CDATA #IMPLIED >
+<!ATTLIST td title CDATA #IMPLIED >
+<!ATTLIST td width CDATA #IMPLIED >
+<!ATTLIST td nowrap CDATA #FIXED "nowrap">
+<!ATTLIST td d CDATA #FIXED "sh">
+<!ATTLIST td valign ( baseline | bottom | top | middle) #IMPLIED >
+
+<!ELEMENT th ( #PCDATA | %inline; )* >
+<!ATTLIST th align ( center |char |justify | left | right) #IMPLIED >
+<!ATTLIST th colspan NMTOKEN #IMPLIED >
+<!ATTLIST th rowspan NMTOKEN #IMPLIED >
+<!ATTLIST th bgcolor CDATA #IMPLIED >
+<!ATTLIST th headers NMTOKEN #IMPLIED >
+<!ATTLIST th style CDATA #IMPLIED >
+<!ATTLIST th title CDATA #IMPLIED >
+<!ATTLIST th width CDATA #IMPLIED >
+<!ATTLIST th nowrap CDATA #FIXED "nowrap">
+<!ATTLIST th d CDATA #FIXED "sh">
+<!ATTLIST th valign ( baseline | bottom | top | middle) #IMPLIED >
+
+<!ELEMENT thead ( #PCDATA | %inline; )* >
+<!ATTLIST thead align ( center |char |justify | left | right) #IMPLIED >
+<!ATTLIST thead title CDATA #IMPLIED >
+<!ATTLIST thead style CDATA #IMPLIED >
+<!ATTLIST thead valign ( bottom | top | middle | baseline) #IMPLIED >   
+
+<!ELEMENT tfoot ( #PCDATA | %inline; )* >
+<!ATTLIST tfoot align ( center |char |justify | left | right) #IMPLIED >
+<!ATTLIST tfoot title CDATA #IMPLIED >
+<!ATTLIST tfoot style CDATA #IMPLIED >
+<!ATTLIST tfoot valign ( bottom | top | middle | baseline) #IMPLIED >
+  
+<!ELEMENT u ( #PCDATA | %inline; )* >
+<!ATTLIST u style CDATA #IMPLIED >
+<!ATTLIST u title CDATA #IMPLIED >
+
+<!ELEMENT advancedinputs ( #PCDATA ) >
+<!ELEMENT affiliation ( #PCDATA ) >
+<!ELEMENT alr ( #PCDATA ) >
+
+<!ELEMENT args EMPTY >
+<!ATTLIST args format CDATA #IMPLIED >
+<!ATTLIST args left CDATA #IMPLIED >
+<!ATTLIST args cmnt CDATA #IMPLIED >
+<!ATTLIST args left NMTOKEN #IMPLIED >
+<!ATTLIST args max NMTOKEN #IMPLIED >
+<!ATTLIST args min NMTOKEN #IMPLIED >
+<!ATTLIST args right CDATA #IMPLIED >
+<!ATTLIST args val NMTOKEN #IMPLIED >
+<!ATTLIST args valorg NMTOKEN #IMPLIED >
+<!ATTLIST args var NMTOKEN #IMPLIED >
+<!ATTLIST args type CDATA #IMPLIED >
+<!ATTLIST args rtol CDATA #IMPLIED >
+<!ATTLIST args value CDATA #IMPLIED >
+
+<!ELEMENT ans ( #PCDATA | %inline; |out)* >
+<!ATTLIST ans t ( opt ) #IMPLIED >
+
+<!ELEMENT anst ( #PCDATA ) >
+
+<!ELEMENT author ( #PCDATA ) >
+<!ELEMENT autonumber ( #PCDATA ) >
+
+<!ELEMENT customize ( #PCDATA ) >
+
+<!ELEMENT choice ( #PCDATA | %inline; )* >
+
+<!ELEMENT des ( #PCDATA | %inline; )* >
+
+<!ELEMENT description ( #PCDATA | %inline; )* >
+
+<!ELEMENT dmarks ( #PCDATA ) >
+
+<!ELEMENT filename ( #PCDATA ) >
+<!ELEMENT fixedchoice ( choice+ ) >
+<!ELEMENT fixedorder ( #PCDATA ) >
+<!ELEMENT fmt ( #PCDATA ) >
+
+<!ELEMENT heading ( #PCDATA | %inline;)* >
+
+<!ELEMENT cip ( #PCDATA | %inline;)* >
+
+<!ELEMENT inp ( #PCDATA | %inline;)* >
+
+<!ELEMENT nopeople ( #PCDATA | %inline;)* >
+
+<!ELEMENT infoTheme ( #PCDATA ) >
+
+<!ELEMENT ipf ( #PCDATA ) >
+
+<!ELEMENT ipo ( #PCDATA ) >
+
+<!ELEMENT ipp ( #PCDATA ) >
+<!ELEMENT ips (#PCDATA | %inline; )* >
+<!ELEMENT input_tts ( #PCDATA ) >
+
+<!ELEMENT invar EMPTY >
+<!ATTLIST invar name CDATA #REQUIRED >
+<!ATTLIST invar problet CDATA #IMPLIED >
+<!ATTLIST invar value CDATA #IMPLIED >
+<!ATTLIST invar transform CDATA #IMPLIED >
+<!ELEMENT keywords ( #PCDATA ) >
+<!ELEMENT kwd ( #PCDATA | %inline; )* >
+
+<!ELEMENT lang ( #PCDATA ) >
+<!ELEMENT mrk ( #PCDATA | %inline;)* >
+<!ATTLIST mrk dis ( Total | Individual ) #IMPLIED >
+<!ATTLIST mrk perq CDATA #IMPLIED>
+
+<!ELEMENT nutri ( table ) >
+<!ELEMENT opentxt ( #PCDATA ) >
+<!ELEMENT opto ( #PCDATA ) >
+<!ELEMENT output_tts ( #PCDATA ) >
+<!ELEMENT out ( #PCDATA | %inline; )* >
+
+<!ELEMENT preamble (title?, keywords?, description?, theory?, heading?, infoTheme?, topdetails?, cip?, theory_link?, autonumber?, customize?, author?, affiliation?, filename?) >
+
+<!ELEMENT prm ( fmt? | rfmt? | alr? | ipf? | ipo? | infoTheme? | ipp? | lang? | tsc? | tse? | fixedorder? | browser? | tdfcasesensitive? | showfcs? | advancedinputs? | tdfarrange? | contans? | input_tts? | output_tts? | anst? | showsrc? | sourceinfo?  | dmarks? | showmark? | qpname? | inp? | out? | exp? | des? | rdes? | fixedchoice? |mrk?)*>
+
+<!ELEMENT problet ( args+ ) >
+<!ATTLIST problet name NMTOKEN #REQUIRED >
+<!ATTLIST problet type NMTOKEN #REQUIRED >
+<!ELEMENT qset ( prm?, psg?, sectionheading?, sectiondetails?,(ips?, que+)+) >
+
+<!ELEMENT que ( inp+, ans*,cans*, exp?, hnt?,anst?,kwd?,mrk?,opto? ) >
+<!ATTLIST que t NMTOKEN #IMPLIED >
+<!ELEMENT rdes ( #PCDATA | %inline;)* >
+
+<!ELEMENT rfmt ( #PCDATA ) >
+<!ELEMENT cans ( out?, exp?) >
+<!ATTLIST cans c CDATA #REQUIRED >
+<!ELEMENT exp ( #PCDATA | %inline;)* >
+<!ELEMENT enc ( #PCDATA| %inline;)* >
+<!ATTLIST enc title CDATA #IMPLIED >
+<!ATTLIST enc key CDATA #IMPLIED >
+<!ELEMENT hnt ( #PCDATA| %inline;)* >
+<!ELEMENT sectionheading ( #PCDATA | %inline;)* >
+<!ELEMENT sectiondetails ( #PCDATA | %inline;)* >
+<!ELEMENT psg ( #PCDATA | %inline;)* >
+<!ATTLIST psg p ( top | left | right | bottom ) #REQUIRED >
+
+<!ELEMENT qpname ( #PCDATA ) >
+<!ELEMENT step ( #PCDATA | %inline; )* >
+<!ATTLIST step name CDATA #REQUIRED >
+<!ELEMENT tab_name1 ( #PCDATA ) >
+<!ELEMENT sourceinfo ( #PCDATA ) >
+<!ELEMENT showsrc ( #PCDATA)>
+<!ELEMENT showfcs ( #PCDATA)>  
+<!ELEMENT browser ( #PCDATA)>
+<!ELEMENT contans ( #PCDATA)>
+
+<!ELEMENT tdf ( preamble,tab_name1?,encrypt?, qset+, opentxt? ) >
+<!ATTLIST tdf ver NMTOKEN #REQUIRED >
+
+<!ELEMENT tdfarrange ( #PCDATA ) >
+
+<!ELEMENT tdfcasesensitive ( #PCDATA ) >
+
+<!ELEMENT theory ( #PCDATA | %inline;)* >
+
+<!ELEMENT theory_link ( a ) >
+
+<!ELEMENT tts ( #PCDATA )  >
+
+<!ATTLIST tts l NMTOKEN #REQUIRED >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT topdetails ( #PCDATA | %inline; )* >
+
+<!ELEMENT tsc ( #PCDATA ) >
+
+<!ELEMENT tse ( #PCDATA ) >
+
+<!ELEMENT transform ( #PCDATA ) >
+<!ATTLIST transform type NMTOKEN #REQUIRED >
+<!ATTLIST transform src NMTOKEN #REQUIRED >
+
+<!ELEMENT ocr ( #PCDATA | %inline;)* >
+

@@ -1,0 +1,101 @@
+egiles
+ egiles/moodle
+
+peterbulmer
+ peterbulmer/moodle
+ peterbulmer/moodle-plagiarism_turnitin
+ peterbulmer/moodle-plagiarism_urkund
+
+srynot4sale
+ srynot4sale/moodle-ci
+ srynot4sale/moodle-dev
+ srynot4sale/moodle-fixes
+ srynot4sale/moodle-perfstats
+
+piersharding
+ piersharding/moodle
+ piersharding/moodle-auth_saml
+ piersharding/moodle-google
+ piersharding/moodle-tool_uploadcourse
+ piersharding/moodle-tool_uploadcoursecategory
+ piersharding/moodle-webservice_rss
+ piersharding/moodletracker-contextual
+
+eugeneventer
+ eugeneventer/moodle
+ eugeneventer/moodle-auth_saml
+ eugeneventer/moodle-block_slider
+ eugeneventer/moodle-ci
+ eugeneventer/moodle-enrol_auto
+ eugeneventer/moodle-fixes
+ eugeneventer/moodle-mod_engagement
+ eugeneventer/moodle-mod_oublog
+ eugeneventer/moodle-mod_webex
+ eugeneventer/moodle-report_engagement
+ eugeneventer/moodle2-skillsoft
+ eugeneventer/o365-moodle
+
+PeloNZ
+ PeloNZ/moodle
+ PeloNZ/moodle-admin_categorymigration
+ PeloNZ/moodle-auth_saml
+ PeloNZ/moodle-block_course_search
+ PeloNZ/moodle-block_people
+ PeloNZ/moodle-block_search_books
+ PeloNZ/moodle-block_uicustomcss
+ PeloNZ/moodle-block_yammer
+ PeloNZ/moodle-ci
+ PeloNZ/moodle-enrol_authorize
+ PeloNZ/moodle-google
+ PeloNZ/moodle-local_analytics
+ PeloNZ/moodle-mod_certificate
+ PeloNZ/moodle-mod_customcert
+ PeloNZ/moodle-mod_turnitintooltwo
+ PeloNZ/moodle-plagiarism_turnitin
+ PeloNZ/moodle-plugin-readme
+ PeloNZ/moodle-report_linkvalidator
+ PeloNZ/moodle2-skillsoft-activity
+
+danmarsden
+ danmarsden/moodle
+ danmarsden/moodle-block_analytics_graphs
+ danmarsden/moodle-block_attendance
+ danmarsden/moodle-block_attendance_csv_all
+ danmarsden/moodle-block_cam_mycourses
+ danmarsden/moodle-block_choice
+ danmarsden/moodle-block_configurablereports
+ danmarsden/moodle-block_course_contents
+ danmarsden/moodle-block_ilp
+ danmarsden/moodle-block_kalturapodcast
+ danmarsden/moodle-block_simplecontact
+ danmarsden/moodle-block_turnitin
+ danmarsden/moodle-course-format_socialplus
+ danmarsden/moodle-courseformat_singlemod
+ danmarsden/moodle-editor_atto
+ danmarsden/moodle-engagementindicator_attendance
+ danmarsden/moodle-google
+ danmarsden/moodle-local_goodbye
+ danmarsden/moodle-mod-assignment-turnitin
+ danmarsden/moodle-mod_attendance
+ danmarsden/moodle-mod_certificate
+ danmarsden/moodle-mod_dialogue
+ danmarsden/moodle-mod_engagement
+ danmarsden/moodle-mod_questionnaire
+ danmarsden/moodle-mod_turnitintooltwo
+ danmarsden/moodle-plagiarism_crot
+ danmarsden/moodle-plagiarism_moorsp
+ danmarsden/moodle-plagiarism_new
+ danmarsden/moodle-plagiarism_turnitin
+ danmarsden/moodle-plagiarism_turnitin_danmarsden_old
+ danmarsden/moodle-plagiarism_urkund
+ danmarsden/moodle-profilefield_radio
+ danmarsden/moodle-quiz_randomsummary
+ danmarsden/moodle-report_coursesize
+ danmarsden/moodle-report_fbccompletion
+ danmarsden/moodle-scormreport_objectives
+ danmarsden/moodle-theme_decaf
+ danmarsden/moodle-tool_mergeusers
+ danmarsden/moodle19-patch_turnitin
+ danmarsden/moodle_mod_attforblock_old
+ danmarsden/moodle_scorm_test_harness
+

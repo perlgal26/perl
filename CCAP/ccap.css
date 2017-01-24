@@ -1,0 +1,56 @@
+.odd
+{ 
+border: solid 1px #e5e5e5;
+width: 100%;
+background-color: #F8F2DA;
+}
+
+.even 
+{ 
+border: solid 1px #e5e5e5;
+width: 100%;
+background-color: #E0DCC5;
+}
+
+.rightimg
+{
+text-align: right;
+float:right;
+margin: 0;
+padding: .5em;
+}
+
+.footer
+{
+clear: both;
+margin: 0;
+padding: .1em;
+border: 1px solid white;
+}
+
+
+ul.container
+{
+list-style-type: none;
+display: inline;
+}
+
+.right
+{
+float: right;
+width: 3em;
+}
+
+
+.left
+{
+margin-left:.3em;
+float: left;
+width: 6em;
+}
+
+.ansexp
+{
+margin-left:.3em;
+padding:.2em;
+}
